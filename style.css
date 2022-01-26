@@ -1,0 +1,54 @@
+.navbar{
+  background-color: #C4E538 !important;
+  border-bottom: 3px solid #EA2027;
+  opacity: 0.9;
+}
+
+
+body{
+  background-color: #333;
+  font-color: white;
+}
+
+#home-section{
+  background: url('laptop2.jpg') no-repeat  center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+.dark-overlay{
+  background: rgba(0,0,0,0.6);
+
+}
+
+.card-form{
+  opacity: 0.8
+}
+.home-inner{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.col-md-5 {
+
+	flex: 0 0 50%;
+	max-width: 30%;
+
+  }
+.col-md-7{
+  margin-top: 3rem !important;
+  margin-left: 8rem;
+
+}
+
+#explore-main-section{
+  font-size: 36px;
+  }
+
+
+@media(max-width: 768px){
+  #home-section h1{
+    font-size: 36px;
+  }
+
+}
